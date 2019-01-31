@@ -11,6 +11,8 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.NetCore.Interfaces",
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.NetCore.SiloHost", "src\FSharp.NetCore.SiloHost\FSharp.NetCore.SiloHost.fsproj", "{C4BD4650-96B4-4F52-B44B-1FC9A612E735}"
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharp.NetCore.GrainTests", "test\FSharp.NetCore.GrainTests\FSharp.NetCore.GrainTests.fsproj", "{563F0DA3-A467-460E-B677-894113CA36AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C4BD4650-96B4-4F52-B44B-1FC9A612E735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4BD4650-96B4-4F52-B44B-1FC9A612E735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4BD4650-96B4-4F52-B44B-1FC9A612E735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563F0DA3-A467-460E-B677-894113CA36AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563F0DA3-A467-460E-B677-894113CA36AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563F0DA3-A467-460E-B677-894113CA36AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563F0DA3-A467-460E-B677-894113CA36AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
